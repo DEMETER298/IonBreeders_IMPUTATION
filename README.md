@@ -1,17 +1,15 @@
-# IonBreeders version 1.0
-Genotyping and genomic selection plugins for the Ion Torrent NGS platform.
+# IonBreeders_IMPUTATION version 1.0
+Genotyping plugins for the Ion Torrent NGS platform.
 
 
-[IonBreedersの使い方 日本語版 ver.1.0 ](https://github.com/DEMETER298/IonBreeders_IMPUTATION/wiki)
+[IonBreeders_IMPUTATIONの使い方 日本語版 ver.1.0 ](https://github.com/DEMETER298/IonBreeders_IMPUTATION/wiki)
 
 
 # 1. Installation Instructions
 
 ## Download plugins
  
-The three plugins of IonBreeders are provided as a zipped package containing files from the Latest Release project page on Github. 
-
-The file name will be of the format IonBreeders_ABH.zip, IonBreeders_Imputation.zip and IonBreeders_GenomicSelection.zip.
+The three plugins of IonBreeders are provided as a zipped package containing files from the Latest Release project page on Github. The file name will be of the format IonBreeders_Imputation.zip.
 
 ## Install
 
@@ -26,7 +24,7 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
 
 ![2](https://user-images.githubusercontent.com/40309394/54819228-8fc4c980-4cde-11e9-92ba-1d4b64e70e64.png) 
 
-3.	In the **`Install or Upgrade Plugin`** tab, select downloaded zip file, and click **`Upload and Install`**.  
+3.	In the **`Install or Upgrade Plugin`** tab, select downloaded IonBreeders_Imputation.zip, and click **`Upload and Install`**.  
  
 ![3](https://user-images.githubusercontent.com/40309394/54819317-e29e8100-4cde-11e9-91a8-3873b1263a93.png)
 
@@ -37,13 +35,18 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
 
 ### 2-2-1 Function
 
-(1)	Remove non-informative markers, including markers with high missing rates, segregation-distorted markers, and integration of linked markers.
+(1)	Remove non-informative markers, including markers with high missing rates, segregation-distorted markers, and integration of perfectly linked markers.
 
-(2)	Remove hetero outputs derived from mis-mapping.
+(2)	Remove high heterogeneity markers derived from mis-mapping.
 
-(3)	Impute missing genotypes using neighboring genotypes and the genetic distance of each marker.
+(3)	Remove nonpolymorphic sites for all samples.
 
-(4)	Output the image of the genotype before and after imputation.
+(4)	Impute missing genotypes using neighboring genotypes and the genetic or physical distance of each marker.
+
+(5)	Output the image of the graphical genotypes and marker positions on chromosomes before and after imputation.
+
+(6) Output the image of LOD scores and recombination fractions between pairs of markers.
+
 
 ### 2-2-2 Input file
 
