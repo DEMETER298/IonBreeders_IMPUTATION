@@ -50,11 +50,15 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
 
 ### 2-2-2 Input file
 
-(1)	Prepare the genotype data of each sample in CSV format as follows; alternatively, the CSV 
-output file (ABH R/qtl) of the ABH plugin can be used.
+(1)	Prepare the genotype data of each sample in CSV format as follows; alternatively, the CSV output file (`ABH(R/qtl,IonBreeders)`) of the ABH plugin can be used.
+    The CSV file opened in Excel is shown below.
+ <img src="https://user-images.githubusercontent.com/40309394/65671484-4d5fb900-e082-11e9-9b82-8caf8e2905c5.png" width="600"> 
  
-(2)	Prepare the genetic distance as a tab-delimited text file in the following format. 
-The genetic distance can be an estimated value.
+(2)	Prepare the genetic distance as a CSV file in the following format. This file can be edited and save in Excel. The genetic distance can be an estimated value.  
+    The CSV file opened in Excel is shown below.
+ ![distance_file](https://user-images.githubusercontent.com/40309394/65736913-b47b7d00-e117-11e9-8019-12c086bcea37.png)
+
+ 
  
 
 ### 2-2-3 Execution
