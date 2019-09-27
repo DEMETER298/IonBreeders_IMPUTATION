@@ -67,17 +67,17 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
 
 (2)	Set each item on the screen a shown below.
 
-![IMPUTATION_plugin_screen](https://user-images.githubusercontent.com/40309394/65737626-ff968f80-e119-11e9-8674-7747b8abd3e1.png)
+<kbd><img src="https://user-images.githubusercontent.com/40309394/65737626-ff968f80-e119-11e9-8674-7747b8abd3e1.png" /></kbd>
  
-`Exclude markers with a uniform genotype for all samples`
+`Exclude markers with a uniform genotype for all samples` : exclude nonpolymorphic markers (eg, all samples are "B")
 
-`Exclude markers with a genotyping rate < X% (Enter a value between 0 to 100 as X)`
+`Exclude markers with a genotyping rate < X% (Enter a value between 0 to 100 as X)` : exclude high missing genotype markers.
 
-`Exclude samples with less than X% of markers genotyped (Enter a value between 0 and 100 as X)`
+`Exclude samples with less than X% of markers genotyped (Enter a value between 0 and 100 as X)` : exclude high missing genotyped samples.
 
-`If more than X% of samples were genotyped, remove the perfectly correlated markers retaining one representative (enter a value between 0 and 100 as X; the default is 70%)`
+`If more than X% of samples were genotyped, remove the perfectly correlated markers retaining one representative (enter a value between 0 and 100 as X; the default is 70%)`  : exclude linked markers. (eg, variant derived from same amplicon)
 
-`Exclude markers showing a distorted segregation rate with a p-value lower than X (enter a value between 0.0 and 1.0 as X; the default is 0.0000000001).`
+`Exclude markers showing a distorted segregation rate with a p-value lower than X (enter a value between 0.0 and 1.0 as X; the default is 0.0000000001).` :
 
 `Exclude markers with a ratio of Hetero calls greater than X% (enter a value between 0 and 100 as X; the default is 50%).
 Impute the genotype based on the selected genetic distance method among four options: imp, argmax, maxmarginal ,or no_dbl_XO (see below for detailed descriptions)`
