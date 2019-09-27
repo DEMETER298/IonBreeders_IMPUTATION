@@ -50,12 +50,12 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
 
 ### 2-2-2 Input file
 
-(1)	Prepare the genotype data of each sample in CSV format as follows; alternatively, the CSV output file (`ABH(R/qtl,IonBreeders)`) of the ABH plugin can be used.
-    The CSV file opened in Excel is shown below.
- <img src="https://user-images.githubusercontent.com/40309394/65671484-4d5fb900-e082-11e9-9b82-8caf8e2905c5.png" width="600"> 
+(1)	Prepare the genotype data of each sample in CSV format as follows; alternatively, the CSV output file (`ABH(R/qtl,IonBreeders)`) of the ABH plugin can be used.  
+* The CSV file opened in Excel is shown below.
+      <img src="https://user-images.githubusercontent.com/40309394/65671484-4d5fb900-e082-11e9-9b82-8caf8e2905c5.png" width="600"> 
  
 (2)	Prepare the genetic distance as a CSV file in the following format. This file can be edited and save in Excel. The genetic distance can be an estimated value.  
-    The CSV file opened in Excel is shown below.
+*  The CSV file opened in Excel is shown below.
  ![distance_file](https://user-images.githubusercontent.com/40309394/65736913-b47b7d00-e117-11e9-8019-12c086bcea37.png)
 
  
@@ -63,29 +63,31 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
 
 ### 2-2-3 Execution
 
-(1)	From the list of plugins, click IonBreeders_Imputation.
+(1)	From the list of plugins, click IonBreeders_IMPUTATION.
 
 (2)	Set each item on the screen a shown below.
 
-![image](https://user-images.githubusercontent.com/40309394/54862886-68283c80-4d84-11e9-90c5-c57cb4c92167.png)
+![IMPUTATION_plugin_screen](https://user-images.githubusercontent.com/40309394/65737626-ff968f80-e119-11e9-8674-7747b8abd3e1.png)
  
-* Exclude markers with a uniform genotype for all samples.
+`Exclude markers with a uniform genotype for all samples`
 
-* Exclude markers with a genotyping rate < X% (Enter a value between 0 to 100 as X) 
+`Exclude markers with a genotyping rate < X% (Enter a value between 0 to 100 as X)`
 
-* Exclude samples with less than X% of markers genotyped (Enter a value between 0 and 100 as X)
+`Exclude samples with less than X% of markers genotyped (Enter a value between 0 and 100 as X)`
 
-* If more than X% of samples were genotyped, remove the perfectly correlated markers retaining one representative (enter a value between 0 and 100 as X; the default is 70%).
+`If more than X% of samples were genotyped, remove the perfectly correlated markers retaining one representative (enter a value between 0 and 100 as X; the default is 70%)`
 
-* Exclude markers showing a distorted segregation rate with a p-value lower than X (enter a value between 0.0 and 1.0 as X; the default is 0.0000000001).
+`Exclude markers showing a distorted segregation rate with a p-value lower than X (enter a value between 0.0 and 1.0 as X; the default is 0.0000000001).`
 
-* Exclude markers with a ratio of Hetero calls greater than X% (enter a value between 0 and 100 as X; the default is 50%).
-Impute the genotype based on the selected genetic distance method among four options: imp, argmax, maxmarginal ,or no_dbl_XO (see below for detailed descriptions). 
+`Exclude markers with a ratio of Hetero calls greater than X% (enter a value between 0 and 100 as X; the default is 50%).
+Impute the genotype based on the selected genetic distance method among four options: imp, argmax, maxmarginal ,or no_dbl_XO (see below for detailed descriptions)`
 
-*  `2nd imputation` can only be selected when maxmarginal is selected as the genetic distance method. Remove suspicious genotypes by maxmarginal and impute the genotype by argmax. Note that this method is only appropriate for practical breeding purposes and is not recommended for research use.
+`2nd imputation` can only be selected when maxmarginal is selected as the genetic distance method. Remove suspicious genotypes by maxmarginal and impute the genotype by argmax. Note that this method is only appropriate for practical breeding purposes and is not recommended for research use.
 
-* `Output of genotype image` : An image of the genotype before and after imputation is output.
-Output file name prefix: Enter the desired file name.
+`Output of genotype image` : Images of the genotype and physical position of markers before and after filtering and imputation is output. And an image of LOD scores and recombination fractions between pairs of markers after filtering and imputation is output. 
+
+`Output file name prefix` : Enter the desired file name.  
+
 
 **Imputation methods:**
 
@@ -95,10 +97,8 @@ Output file name prefix: Enter the desired file name.
 
 `maxmarginal`: the conditional genotype probabilities are calculated with calc.genoprob, and the most probable genotype is determined for each marker. This is taken as the imputed genotype if the probability is greater than min.prob; otherwise it is considered as a missing genotype.
 
-`no_dbl_XO`: non-recombinant intervals are filled in; recombinant intervals are left missing.
-(ex: A---A---H---H---A → AAAAA---HHHHH---A).
-
-
+`no_dbl_XO`: non-recombinant intervals are filled in; recombinant intervals are left missing.  
+             (ex: A---A---H---H---A → AAAAA---HHHHH---A).
 
 
 (3)	Output contents
