@@ -71,22 +71,24 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
  
 `Exclude markers with a uniform genotype for all samples` : exclude nonpolymorphic markers (eg, all samples are "B")
 
-`Exclude markers with a genotyping rate < X% (Enter a value between 0 to 100 as X)` : exclude high missing genotype markers.
+`Exclude markers with a genotyping rate < X% ` : exclude high missing genotype markers.
 
-`Exclude samples with less than X% of markers genotyped (Enter a value between 0 and 100 as X)` : exclude high missing genotyped samples.
+`Exclude samples with less than X% of markers genotyped` : exclude high missing genotyped samples.
 
-`If more than X% of samples were genotyped, remove the perfectly correlated markers retaining one representative (enter a value between 0 and 100 as X; the default is 70%)`  : exclude linked markers. (eg, variant derived from same amplicon)
+`If more than X% of samples were genotyped, remove the perfectly correlated markers retaining one representative`  : exclude linked markers. (default is 70%) (eg, variant derived from same amplicon)
 
-`Exclude markers showing a distorted segregation rate with a p-value lower than X (enter a value between 0.0 and 1.0 as X; the default is 0.0000000001).` :
+`Exclude markers showing a distorted segregation rate with a p-value lower than X` : exclude distorted markers (default is 0.0000000001)
 
-`Exclude markers with a ratio of Hetero calls greater than X% (enter a value between 0 and 100 as X; the default is 50%).
-Impute the genotype based on the selected genetic distance method among four options: imp, argmax, maxmarginal ,or no_dbl_XO (see below for detailed descriptions)`
+`Exclude markers with a ratio of Hetero calls greater than X%` : exclude high heterogeneity markers derived from mis-mapping (default is 95%)
+
+`Impute the genotype` : Impute the genotype based on the selected genetic distance method among four options: imp, argmax, maxmarginal ,or no_dbl_XO (see below for detailed descriptions)
 
 `2nd imputation` can only be selected when maxmarginal is selected as the genetic distance method. Remove suspicious genotypes by maxmarginal and impute the genotype by argmax. Note that this method is only appropriate for practical breeding purposes and is not recommended for research use.
 
-`Output of genotype image` : Images of the genotype and physical position of markers before and after filtering and imputation is output. And an image of LOD scores and recombination fractions between pairs of markers after filtering and imputation is output. 
+`Output of genotype image` : Images of the genotype and physical position of markers before and after filtering and imputation is output. And an image of LOD scores and recombination fractions between pairs of markers is output. 
 
 `Output file name prefix` : Enter the desired file name.  
+
 
 
 **Imputation methods:**
@@ -98,7 +100,7 @@ Impute the genotype based on the selected genetic distance method among four opt
 `maxmarginal`: the conditional genotype probabilities are calculated with calc.genoprob, and the most probable genotype is determined for each marker. This is taken as the imputed genotype if the probability is greater than min.prob; otherwise it is considered as a missing genotype.
 
 `no_dbl_XO`: non-recombinant intervals are filled in; recombinant intervals are left missing.  
-             (ex: A---A---H---H---A → AAAAA---HHHHH---A).
+             (ex: A---A---H---H---A → AAAAA---HHHHH---A).  
 
 
 (3)	Output contents
