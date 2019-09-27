@@ -107,19 +107,21 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
 
 When execution is completed, the following items are displayed on the screen.
  
-![IMPUTATION_outputScreen](https://user-images.githubusercontent.com/40309394/65762039-0b567600-e15b-11e9-904a-688689acb285.png)
+　　　　<img src="https://user-images.githubusercontent.com/40309394/65763462-73f32200-e15e-11e9-9cae-6683289b0734.png" width="600">  
 
-`genotype data before excluding perfectly correlated markers`: Genotype file entered in the plugin screen.
+`input file=`: Genotype file entered in the plugin screen.
 
-`input file`: Genotype file with perfectly lined markers removed.
-
-`output genotype (R/qtl)`: Genotype data for R/qtl format.
+`output genotype (R/qtl,IonBreeders)`: Genotype data for R/qtl format.
 
 `output genotype (Antmap)`: Genotype data for Antmap format.
 
-`output genotype list (MAPMAKER)`: List of marker names
+`output genotype (MAPMAKER)`: Genotype data for MAPMAKER format.
 
-`marker names for MAPMAKER`: Genotype data for MapMaker format. Owing to the limit of the number of characters in MapMaker, the marker name is converted to AMPXXXX format from AMP0001.
+`prep file for MAPMAKER`: prep file for MAPMAKER.
+
+`marker names for MAPMAKER`: Correspondence table of marker names for IonBreeders/R(qtl) and MAPMAKER. Convert to marker name AMPLXXXX character limit in MAPMAKER.
+
+`marker names for MAPMAKER`: Genotype data for MapMaker format. Owing to the limit of the number of characters in MapMaker, the marker name is converted to AMP0001~AMPL9999 to support the character limit in MAPMAKER.
 
 `genotype image`: Image file of the genotype before and after imputation is output.
 
