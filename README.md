@@ -107,7 +107,7 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
 
 When execution is completed, the following items are displayed on the screen.
  
-![image](https://user-images.githubusercontent.com/40309394/54862934-395e9600-4d85-11e9-877f-e940bf2720f9.png)
+![IMPUTATION_outputScreen](https://user-images.githubusercontent.com/40309394/65762039-0b567600-e15b-11e9-904a-688689acb285.png)
 
 `genotype data before excluding perfectly correlated markers`: Genotype file entered in the plugin screen.
 
