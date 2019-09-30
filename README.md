@@ -33,7 +33,7 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
 # 2. Plugin manuals
 ## 2-2 IMPUTATION plugin
 
-### 2-2-1 Function
+### 2-1 Function
 
 (1)	Remove non-informative markers, including markers with high missing rates, segregation-distorted markers, and integration of perfectly linked markers.
 
@@ -48,7 +48,7 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
 (6) Output the image of LOD scores and recombination fractions between pairs of markers.
 
 <br>
-### 2-2-2 Input file
+### 2-2 Input file
 
 (1)	Prepare the genotype data of each sample in CSV format as follows; alternatively, the CSV output file (`ABH(R/qtl,IonBreeders)`) of the ABH plugin can be used.  
 * The CSV file opened in Excel is shown below.
@@ -61,7 +61,7 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
  
  
 
-### 2-2-3 Execution
+### 2-3 Execution
 
 (1)	From the list of plugins, click IonBreeders_IMPUTATION.
 
@@ -103,7 +103,7 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
              (ex: A---A---H---H---A → AAAAA---HHHHH---A).  
 
 <br>
-(3)	Output contents
+### 2-4 Output contents
 
 When execution is completed, the following items are displayed on the screen.
 　　　<img src="https://user-images.githubusercontent.com/40309394/65763462-73f32200-e15e-11e9-9cae-6683289b0734.png">  
