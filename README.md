@@ -122,15 +122,17 @@ When execution is completed, the following items are displayed on the screen.
 `marker names for MAPMAKER`: Correspondence table of marker names for IonBreeders/R(qtl) and MAPMAKER. Convert to marker name AMPLXXXX character limit in MAPMAKER.
 
 `marker names for MAPMAKER`: Genotype data for MapMaker format. Owing to the limit of the number of characters in MapMaker, the marker name is converted to AMP0001~AMPL9999 to support the character limit in MAPMAKER.
-   <img src="https://user-images.githubusercontent.com/40309394/65842464-c4d56700-e366-11e9-8c23-6cddb31d8d7e.png" width="300">  
-
+　　<div align="center">
+    <img src="https://user-images.githubusercontent.com/40309394/65842464-c4d56700-e366-11e9-8c23-6cddb31d8d7e.png" width="300">  
+　　</div>  
 `genotype image`: Image file of the genotype before and after imputation is output.
 
 `output sample list`: List of sample names
 
 `list of removed perfectly linked markers`: Correspondence table of removed markers and integrated perfectly linked markers
- <img src="https://user-images.githubusercontent.com/40309394/65842473-d454b000-e366-11e9-9574-2582c575e307.png" >
-   
+ 　　<div align="center">
+     <img src="https://user-images.githubusercontent.com/40309394/65842473-d454b000-e366-11e9-9574-2582c575e307.png"  width="400">
+ 　　</div>   
    
 ***
 
