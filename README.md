@@ -106,8 +106,7 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
 (3)	Output contents
 
 When execution is completed, the following items are displayed on the screen.
- 
-　　　　<img src="https://user-images.githubusercontent.com/40309394/65763462-73f32200-e15e-11e9-9cae-6683289b0734.png" width="250">  
+　　　<img src="https://user-images.githubusercontent.com/40309394/65763462-73f32200-e15e-11e9-9cae-6683289b0734.png">  
 
 `input file=`: Genotype file entered in the plugin screen.
 
@@ -129,7 +128,7 @@ When execution is completed, the following items are displayed on the screen.
 
 `output sample list`: List of sample names
 
-`list of removed perfectly linked markers`: Correspondence table of removed markers and integrated perfectly linked markers
+`list of removed perfectly linked markers`: Correspondence table of removed markers and integrated perfectly linked markers. The CSV file opened in Excel is shown below.    
  　　<div align="center">
      <img src="https://user-images.githubusercontent.com/40309394/65842473-d454b000-e366-11e9-9574-2582c575e307.png"  width="400">
  　　</div>   
