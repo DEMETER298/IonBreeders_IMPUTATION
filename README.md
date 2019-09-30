@@ -47,7 +47,7 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
 
 (6) Output the image of LOD scores and recombination fractions between pairs of markers.
 
-
+<br>
 ### 2-2-2 Input file
 
 (1)	Prepare the genotype data of each sample in CSV format as follows; alternatively, the CSV output file (`ABH(R/qtl,IonBreeders)`) of the ABH plugin can be used.  
@@ -90,7 +90,7 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
 `Output file name prefix` : Enter the desired file name.  
 
 
-
+<br>
 **Imputation methods:**
 
 `imp`: a single random imputation is performed using sim.geno.
@@ -102,7 +102,7 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
 `no_dbl_XO`: non-recombinant intervals are filled in; recombinant intervals are left missing.  
              (ex: A---A---H---H---A → AAAAA---HHHHH---A).  
 
-
+<br>
 (3)	Output contents
 
 When execution is completed, the following items are displayed on the screen.
@@ -133,22 +133,28 @@ When execution is completed, the following items are displayed on the screen.
      <img src="https://user-images.githubusercontent.com/40309394/65842473-d454b000-e366-11e9-9574-2582c575e307.png"  width="400">
  　　</div>   
    
-***
+<br>
+<br>
+<br>
 
 # Contact
-Eri Ogiso-Tanaka, Ph.D. demeter@affrc.go.jp
-
+Eri Ogiso-Tanaka, Ph.D.   
+demeter@affrc.go.jp  
+<br>
 Institute of Crop Science / National Agriculture and Food Research Organization
 2-1-2, Kannondai, Tsukuba, Ibaraki 305-8518, Japan
 
+<br>
 # Version
 Version 1.0
 
+<br>
 # Citing IonBreeders
-Ogiso-Tanaka E, Yabe S and Tanaka T (2019) 
+Ogiso-Tanaka E, Yabe S and Tanaka T (2019)  
+IonBreeders: semi-automated bioinformatics plugins toward genomics-assisted breeding.  
+Breeding Science (in submitted)  
 
-**IonBreeders: semi-automated bioinformatics plugins toward genomics-assisted breeding.**
-
+<br>
 # License
 NARO NON-COMMERCIAL LICENSE AGREEMENT Version 1.0
 
