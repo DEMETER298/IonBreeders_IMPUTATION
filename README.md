@@ -78,11 +78,11 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
 
 `Exclude samples with less than X% of markers genotyped` : exclude high missing genotyped samples.
 
-`If more than X% of samples were genotyped, remove the perfectly correlated markers retaining one representative`  : exclude linked markers. (default is 70%) (eg, variant derived from same amplicon)
+`If more than X% of samples were genotyped, remove the perfectly correlated markers retaining one representative`  : exclude linked markers. (default is 95%) (eg, variant derived from same amplicon)
 
 `Exclude markers showing a distorted segregation rate with a p-value lower than X` : exclude distorted markers (default is 0.0000000001)
 
-`Exclude markers with a ratio of Hetero calls greater than X%` : exclude high heterogeneity markers derived from mis-mapping (default is 95%)
+`Exclude markers with a ratio of Hetero calls greater than X%` : exclude high heterogeneity markers derived from mis-mapping (default is 90%)
 
 `Impute the genotype` : Impute the genotype based on the selected genetic distance method among four options: imp, argmax, maxmarginal ,or no_dbl_XO (see below for detailed descriptions)
 
