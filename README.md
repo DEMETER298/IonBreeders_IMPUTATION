@@ -10,6 +10,10 @@ Genotype pre-imputation filtering and imputation plugin for the Ion Torrent NGS 
 ## Download plugins
  
 The three plugins of IonBreeders are provided as a zipped package containing files from the Latest Release project page on Github. The file name will be of the format IonBreeders_Imputation.zip.
+The ABH plugin of IonBreeders is provided as a zipped package containing files from the Latest Release project page on Github. The file name will be of the format IonBreeders_IMPUTATION.zip.
+1. Click the **`Clone or download`** in the upper right and **`Download ZIP`** button to save a zipped archive to you local computer.
+![install](https://user-images.githubusercontent.com/40309394/66794248-b7f66d00-ef3b-11e9-9fee-8f30137739be.png)
+2. Unzip the downloaded IonBreeders_IMPUTATION-master.zip file.
 
 ## Install
 
@@ -24,7 +28,7 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
 
 ![2](https://user-images.githubusercontent.com/40309394/54819228-8fc4c980-4cde-11e9-92ba-1d4b64e70e64.png) 
 
-3.	In the **`Install or Upgrade Plugin`** tab, select downloaded IonBreeders_Imputation.zip, and click **`Upload and Install`**.  
+3.	In the **`Install or Upgrade Plugin`** tab, select downloaded IonBreeders_Imputation.zip in IonBreeders_IMPUTATION-master folder, and click **`Upload and Install`**.  
  
 ![3](https://user-images.githubusercontent.com/40309394/54819317-e29e8100-4cde-11e9-91a8-3873b1263a93.png)
 
