@@ -63,7 +63,6 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
 
  
  
-
 ### 2-3 Execution
 
 (1)	From the list of plugins, click IonBreeders_IMPUTATION.
