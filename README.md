@@ -36,19 +36,28 @@ Follow these steps for automatic installation of a plugin from the Torrent Brows
 # 2. Plugin manuals
 ## 2-2 IMPUTATION plugin
 
-### 2-1 Function
+### 2-1 Function　＊
 
-(1)	Remove non-informative markers, including markers with high missing rates, segregation-distorted markers, and integration of perfectly linked markers.
+(1)	Remove markers with identical genotypes. (“comparegeno”, “findDupMarkers”, “drop.markers”)
 
-(2)	Remove high heterogeneity markers derived from mis-mapping.
+(2)	Remove nonpolymorphic sites for all samples. (“pull.geno”, “drop.markers”)
 
-(3)	Remove nonpolymorphic sites for all samples.
+(3)	Remove markers with high proportion of missing genotypes. (“drop.markers”)
 
-(4)	Impute missing genotypes using neighboring genotypes and the genetic or physical distance of each marker.
+(4)	Remove samples with high proportion of missing genotypes. (“drop.markers”)
 
-(5)	Output the image of the graphical genotypes and marker positions on chromosomes before and after imputation.
+(5)	Remove high heterogeneity markers. (“pull.geno”, “drop.markers”)
 
-(6) Output the image of LOD scores and recombination fractions between pairs of markers.
+(6)	Remove markers with segregation distortion. (“geno.table”, “totmar”, “drop.markers”)
+
+(7)	Impute missing genotypes using neighboring genotypes and the genetic distance or physical distance of each marker. (“fill.geno”)
+
+(8)	Output of genotype image: output the image of the genotype and marker positions on chromosomes before and after imputation (“geno.image”, “plotMap”). Output the image of LOD scores and recombination fractions between pairs of markers. (“plotRF”)
+
+(9)	Integration of perfectly linked markers. 
+
+＊The parenthesis on the right indicates the function of R/qtl used in the step.
+
 
 <br>
 ### 2-2 Input file
