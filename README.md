@@ -148,7 +148,7 @@ When execution is completed, the following items are displayed on the screen.
 <br>
 <br>
 <br>
-##  Contact
+# Contact
 Eri Ogiso-Tanaka, Ph.D.   
 demeter( at )affrc.go.jp  
 
@@ -156,21 +156,21 @@ Institute of Crop Science / National Agriculture and Food Research Organization
 2-1-2, Kannondai, Tsukuba, Ibaraki 305-8518, Japan
 <br>
 <br>
-##   Version
+#   Version
 <br>
 Version 1.01    12 March 2020   update
 <br>
 Version 1.0
 <br>
 <br>
-## Citing IonBreeders
+# Citing IonBreeders
 
 Ogiso-Tanaka E, Yabe S and Tanaka T (2019)   
 IonBreeders: semi-automated bioinformatics plugins toward genomics-assisted breeding.  
 Breeding Science (in press)
 <br>
 <br>
-##  License
+#  License
 
 NARO NON-COMMERCIAL LICENSE AGREEMENT Version 1.0
 
