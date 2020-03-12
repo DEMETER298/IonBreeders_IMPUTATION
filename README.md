@@ -161,9 +161,9 @@ Version 1.0
 
 <br>
 # Citing IonBreeders
-Ogiso-Tanaka E, Yabe S and Tanaka T (2019)   in press
+Ogiso-Tanaka E, Yabe S and Tanaka T (2019)   
 IonBreeders: semi-automated bioinformatics plugins toward genomics-assisted breeding.  
-Breeding Science 
+Breeding Science (in press)
 
 <br>
 # License
