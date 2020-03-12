@@ -144,34 +144,23 @@ When execution is completed, the following items are displayed on the screen.
      <img src="https://user-images.githubusercontent.com/40309394/65842473-d454b000-e366-11e9-9574-2582c575e307.png"  width="400">
  　　</div>   
    
-<br>
-<br>
-<br>
-<br>
+***
+
 # Contact
-Eri Ogiso-Tanaka, Ph.D.   
-demeter( at )affrc.go.jp  
+Eri Ogiso-Tanaka, Ph.D. demeter@affrc.go.jp
 
 Institute of Crop Science / National Agriculture and Food Research Organization
 2-1-2, Kannondai, Tsukuba, Ibaraki 305-8518, Japan
-<br>
-<br>
-#   Version
-<br>
-Version 1.01    12 March 2020   update
-<br>
-Version 1.0
-<br>
-<br>
+
+# Version
+Version 1.01   (12 Mar 2020 update)
+
 # Citing IonBreeders
+Ogiso-Tanaka E, Yabe S and Tanaka T (2019)  in press
 
-Ogiso-Tanaka E, Yabe S and Tanaka T (2019)   
-IonBreeders: semi-automated bioinformatics plugins toward genomics-assisted breeding.  
-Breeding Science (in press)
-<br>
-<br>
-#  License
+**IonBreeders: semi-automated bioinformatics plugins toward genomics-assisted breeding.**
 
+# License
 NARO NON-COMMERCIAL LICENSE AGREEMENT Version 1.0
 
 This license is for 'Non-Commercial' use of software for IonBreeders.
