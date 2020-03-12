@@ -151,12 +151,12 @@ When execution is completed, the following items are displayed on the screen.
 ##  Contact
 Eri Ogiso-Tanaka, Ph.D.   
 demeter( at )affrc.go.jp  
-<br>
+
 Institute of Crop Science / National Agriculture and Food Research Organization
 2-1-2, Kannondai, Tsukuba, Ibaraki 305-8518, Japan
 <br>
 <br>
-##  Version
+##   Version
 <br>
 Version 1.01    12 March 2020   update
 <br>
@@ -170,8 +170,8 @@ IonBreeders: semi-automated bioinformatics plugins toward genomics-assisted bree
 Breeding Science (in press)
 <br>
 <br>
-## License
-<br>
+##  License
+
 NARO NON-COMMERCIAL LICENSE AGREEMENT Version 1.0
 
 This license is for 'Non-Commercial' use of software for IonBreeders.
