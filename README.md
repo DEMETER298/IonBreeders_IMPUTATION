@@ -158,7 +158,7 @@ Version 1.01   (12 Mar 2020 update)
 # Citing IonBreeders
 Ogiso-Tanaka E, Yabe S and Tanaka T (2019)  in press
 
-**IonBreeders: semi-automated bioinformatics plugins toward genomics-assisted breeding.**
+**IonBreeders: automated bioinformatics plugins toward genomics-assisted breeding.**
 
 # License
 NARO NON-COMMERCIAL LICENSE AGREEMENT Version 1.0
