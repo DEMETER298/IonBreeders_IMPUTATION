@@ -1,8 +1,8 @@
-# IonBreeders_IMPUTATION version 1.0
+# IonBreeders_IMPUTATION version 1.01
 Genotype pre-imputation filtering and imputation plugin for the Ion Torrent NGS platform.
 
 
-[IonBreeders_IMPUTATIONの使い方 日本語版 ver.1.0 ](https://github.com/DEMETER298/IonBreeders_IMPUTATION/wiki)
+[IonBreeders_IMPUTATIONの使い方 日本語版 ver.1.01 ](https://github.com/DEMETER298/IonBreeders_IMPUTATION/wiki)
 
 
 # 1. Installation Instructions
